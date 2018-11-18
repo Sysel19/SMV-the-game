@@ -1,0 +1,27 @@
+@echo off
+title SMV obchod
+
+:obchod
+
+cls
+echo 1. Kovar
+echo 2. Mag
+echo 3. Lovec
+echo 4. Pekar
+echo 5. Rybar
+echo 6. Prevoznik
+choice /c 123456 /m "Ke komu chces jit ?"
+if %errorlevel%==1 goto :kovar
+if %errorlevel%==2 goto :mag
+if %errorlevel%==3 goto :lovec
+if %errorlevel%==4 goto :pekar
+if %errorlevel%==5 goto :rybar
+if %errorlevel%==6 goto :prevoznik
+
+:kovar
+
+cls
+echo.
+echo 
+echo 
+echo 
