@@ -9,3 +9,6 @@ if %ERRORLEVEL%==a goto :MENU
 if %ERRORLEVEL%==n exit
 
 :MENU
+
+cls
+echo.
