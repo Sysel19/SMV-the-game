@@ -24,10 +24,11 @@ cls
 echo.
 echo                          Kovar Martin
 echo         OOOOOOOOO        
-echo        OOO     OOO       1.    
+echo        OOO     OOO       1. OBCHODOVANI    
 echo       OO  O   O  OO     
-echo      OO     <     OO     2.
+echo      OO     <     OO     2. ROZHOVOR
 echo      OO   -----   OO  
-echo       OO    U    OO      3.  
+echo       OO    U    OO      3. ZPET
 echo        OOO     OOO
 echo         OOOOOOOOO
+echo %money%
