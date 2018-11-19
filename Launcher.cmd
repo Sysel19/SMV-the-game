@@ -12,4 +12,4 @@ if %ERRORLEVEL%==n exit
 
 cls
 echo.
-// ahoj :D
+// test
