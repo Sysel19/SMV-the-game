@@ -1,5 +1,6 @@
 @echo off
 title SMV obchod
+set %money%
 
 :obchod
 
