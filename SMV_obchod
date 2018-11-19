@@ -61,6 +61,6 @@ echo %hp%
 
 choice /c 123 /m "Vyber jsi"
 
-if %errorlevel%==1 goto :OBCHODAVANI
+if %errorlevel%==1 goto :OBCHODAVANIM
 if %erroelevel%==2 goto :ROZHOVOR
 if %erroelevel%==3 goto :obchod
