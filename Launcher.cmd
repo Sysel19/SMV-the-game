@@ -10,4 +10,3 @@ if %ERRORLEVEL%==n exit
 
 :START
 start menu.cmd
-::Ahoj
