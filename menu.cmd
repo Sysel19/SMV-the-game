@@ -77,11 +77,11 @@ if %ERRORLEVEL%==3 exit
 
 cls
 echo Pohyb: "w,a,s,d"
-timeout /t 1 >nul /nobreak
+timeout /t 1 /nobreak >nul
 echo Pohyb v menu 1,2,3
-timeout /t 1 >nul /nobreak
+timeout /t 1 /nobreak >nul
 echo Interakce "e"
-timeout /t 1 >nul /nobreak
+timeout /t 1 /nobreak >nul
 echo Navrat do menu "b"
-timeout /t 1 >nul /nobreak
+timeout /t 1 /nobreak >nul
 goto :2MENUNapoveda
