@@ -83,15 +83,17 @@ echo         O       O|
 echo         O       O   
 echo         O       O 
 echo      OOOOOOOOOOOOOOO
-echo        OOO     OOO
-echo       OO  O   O  OO               
-echo      OO     <     OO
+echo        OOO     OOO       1. OBCHODOVANI
+echo       OO  O   O  OO
+echo      OO     <     OO     2. ROZHOVOR
 echo      OO    ---    OO
-echo       OO    U    OO
+echo       OO    U    OO      3. ZPET
 echo        OOO     OOO
 echo         OOOOOOOOO
 echo PENIZE: %money%
+
 choice /c 123 /m "Vyber jsi!"
+
 if %errorlevel%==1 goto :OBCHODOVANIL
 if %errorlevel%==2 goto :ROZHOVORL
 if %errorlevel%==3 goto :obchod
@@ -105,10 +107,61 @@ echo         O       O
 echo         O       O   
 echo         O       O 
 echo      OOOOOOOOOOOOOOO
-echo        OOO     OOO
-echo       OO  O   O  OO               
-echo      OO     <     OO
-echo      OO           OO
-echo       OO  |---|  OO
+echo        OOO     OOO       1. OBCHODOVANI
+echo       OO  O   O  OO
+echo      OO     <     OO     2. ROZHOVOR
+echo      OO   -----   OO
+echo       OO    U    OO      3. ZPET
 echo        OOO     OOO
 echo         OOOOOOOOO
+
+choice /c 123 /m "Vyber jsi!"
+
+if %errorlevel%==1 goto :OBCHODP
+if %errorlevel%==2 goto :ROZHOVORP
+if %errorlevel%==3 goto :obchod
+
+:rybar
+
+cls
+echo.
+echo           
+echo             OO   
+echo          OO    OO   
+echo         OO      OO 
+echo      OOOOOOOOOOOOOOO
+echo        OOO     OOO       1. OBCHODOVANI
+echo       OO  O   O  OO
+echo      OO     <     OO     2. ROZHOVOR
+echo      OO    ---    OO
+echo       OO    U    OO      3. ZPET
+echo        OOO     OOO
+echo         OOOOOOOOO
+choice /c 123 /m "Vyber jsi!"
+
+if %errorlevel%==1 goto :OBCHODR
+if %errorlevel%==2 goto :ROZHOVORR
+if %errorlevel%==3 goto :obchod
+
+:prevoznik
+
+cls
+echo.
+echo           
+echo             OO   
+echo          OO    OO   
+echo         OO  PP  OO 
+echo      OOOOOOOOOOOOOOO
+echo        OOO     OOO       1. OBCHODOVANI
+echo       OO  O   O  OO
+echo      OO     <     OO     2. ROZHOVOR
+echo      OO   -----   OO
+echo       OO    U    OO      3. ZPET
+echo        OOO     OOO
+echo         OOOOOOOOO
+
+choice /c 123 /m "Vyber jsi!"
+
+if %errorlevel%==1 goto :OBCHODPR
+if %errorlevel%==2 goto :ROZHOVOPR
+if %errorlevel%==3 goto :obchod
