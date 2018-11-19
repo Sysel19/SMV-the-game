@@ -22,6 +22,12 @@ if %errorlevel%==6 goto :prevoznik
 
 cls
 echo.
-echo 
-echo 
-echo 
+echo                          Kovar Martin
+echo         OOOOOOOOO        
+echo        OOO     OOO       1.    
+echo       OO  O   O  OO     
+echo      OO     <     OO     2.
+echo      OO   -----   OO  
+echo       OO    U    OO      3.  
+echo        OOO     OOO
+echo         OOOOOOOOO
