@@ -1,6 +1,10 @@
 @echo off
 title SMV obchod
-set %money%
+set /p money=<money.txt
+set /p currenthp=<currenthp.txt
+set /p maxhp=<maxhp.txt
+set /p currentmana=<currentmana.txt
+set /p maxmana=<maxmana.txt
 
 :obchod
 
@@ -32,10 +36,9 @@ echo      OO   -----   OO
 echo       OO    U    OO      3. ZPET
 echo        OOO     OOO
 echo         OOOOOOOOO
-echo %money%
-
+echo PENIZE: %money%
+echo Max HP: %maxhp%
 choice /c 123 /m "Vyber jsi!"
-
 if %errorlevel%==1 goto :OBCHODOVANI
 if %errorlevel%==2 goto :ROZHOVOR
 if %errorlevel%==3 goto :obchod
@@ -56,14 +59,16 @@ echo      OO   -----   OO
 echo       OO    U    OO      3.ZPET
 echo        OOO     OOO
 echo         OOOOOOOOO
-echo %money%
-echo %hp%
-
+echo PENIZE: %money%
+echo HP: %currenthp%
+echo Max HP: %maxhp%
+echo MANA: %currentmana%
+echo Max MANA: %maxmana%
 choice /c 123 /m "Vyber jsi!"
 
 if %errorlevel%==1 goto :OBCHODAVANIM
-if %erroelevel%==2 goto :ROZHOVORM
-if %erroelevel%==3 goto :obchod
+if %errorlevel%==2 goto :ROZHOVORM
+if %errorlevel%==3 goto :obchod
 
 
 :lovec
@@ -85,11 +90,8 @@ echo      OO    ---    OO
 echo       OO    U    OO
 echo        OOO     OOO
 echo         OOOOOOOOO
-
-echo %money%
-
+echo PENIZE: %money%
 choice /c 123 /m "Vyber jsi!"
-
 if %errorlevel%==1 goto :OBCHODOVANIL
 if %errorlevel%==2 goto :ROZHOVORL
 if %errorlevel%==3 goto :obchod
