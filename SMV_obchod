@@ -42,8 +42,7 @@ if %errorlevel%==3 goto :obchod
 
 :mag
                
-echo.
-echo           
+echo.           
 echo           |_M_|
 echo          OOO OOO
 echo         OOO   OOO    
