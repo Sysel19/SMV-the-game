@@ -31,7 +31,7 @@ echo                          Kovar Martin
 echo         OOOOOOOOO        
 echo        OOO     OOO       1. OBCHODOVANI    
 echo       OO  O   O  OO     
-echo      OO     <     OO     2. ROZHOVOR
+echo      OO     I     OO     2. ROZHOVOR
 echo      OO   -----   OO  
 echo       OO    U    OO      3. ZPET
 echo        OOO     OOO
@@ -54,7 +54,7 @@ echo       OOOO     OOOO
 echo      OOOOOOOOOOOOOOO
 echo        OOO     OOO       1. OBCHODOVANI
 echo       OO  O   O  OO
-echo      OO     <     OO     2. ROZHOVOR
+echo      OO     I     OO     2. ROZHOVOR
 echo      OO   -----   OO
 echo       OO    U    OO      3. ZPET
 echo        OOO     OOO
@@ -85,7 +85,7 @@ echo         O       O
 echo      OOOOOOOOOOOOOOO
 echo        OOO     OOO       1. OBCHODOVANI
 echo       OO  O   O  OO
-echo      OO     <     OO     2. ROZHOVOR
+echo      OO     I     OO     2. ROZHOVOR
 echo      OO    ---    OO
 echo       OO    U    OO      3. ZPET
 echo        OOO     OOO
@@ -109,7 +109,7 @@ echo         O       O
 echo      OOOOOOOOOOOOOOO
 echo        OOO     OOO       1. OBCHODOVANI
 echo       OO  O   O  OO
-echo      OO     <     OO     2. ROZHOVOR
+echo      OO     I     OO     2. ROZHOVOR
 echo      OO   -----   OO
 echo       OO    U    OO      3. ZPET
 echo        OOO     OOO
@@ -132,7 +132,7 @@ echo         OO      OO
 echo      OOOOOOOOOOOOOOO
 echo        OOO     OOO       1. OBCHODOVANI
 echo       OO  O   O  OO
-echo      OO     <     OO     2. ROZHOVOR
+echo      OO     I     OO     2. ROZHOVOR
 echo      OO    ---    OO
 echo       OO    U    OO      3. ZPET
 echo        OOO     OOO
@@ -154,7 +154,7 @@ echo         OO  PP  OO
 echo      OOOOOOOOOOOOOOO
 echo        OOO     OOO       1. OBCHODOVANI
 echo       OO  O   O  OO
-echo      OO     <     OO     2. ROZHOVOR
+echo      OO     I     OO     2. ROZHOVOR
 echo      OO   -----   OO
 echo       OO    U    OO      3. ZPET
 echo        OOO     OOO
