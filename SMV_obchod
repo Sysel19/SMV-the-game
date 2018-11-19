@@ -34,14 +34,15 @@ echo        OOO     OOO
 echo         OOOOOOOOO
 echo %money%
 
-choice /c 123 /m "Vyber jsi"
+choice /c 123 /m "Vyber jsi!"
 
 if %errorlevel%==1 goto :OBCHODOVANI
 if %errorlevel%==2 goto :ROZHOVOR
 if %errorlevel%==3 goto :obchod
 
 :mag
-               
+ 
+cls 
 echo.           
 echo           |_M_|
 echo          OOO OOO
@@ -58,8 +59,37 @@ echo         OOOOOOOOO
 echo %money%
 echo %hp%
 
-choice /c 123 /m "Vyber jsi"
+choice /c 123 /m "Vyber jsi!"
 
 if %errorlevel%==1 goto :OBCHODAVANIM
 if %erroelevel%==2 goto :ROZHOVORM
 if %erroelevel%==3 goto :obchod
+
+
+:lovec
+
+cls
+echo.
+echo                     OO   
+echo                    OOO
+echo                    OO 
+echo         OOOOOOOOO  | 
+echo         O       O |   
+echo         O       O|   
+echo         O       O 
+echo      OOOOOOOOOOOOOOO
+echo        OOO     OOO
+echo       OO  O   O  OO               
+echo      OO     <     OO
+echo      OO    ---    OO
+echo       OO    U    OO
+echo        OOO     OOO
+echo         OOOOOOOOO
+
+echo %money%
+
+choice /c 123 /m "Vyber jsi!"
+
+if %errorlevel%==1 goto :OBCHODOVANIL
+if %errorlevel%==2 goto :ROZHOVORL
+if %errorlevel%==3 goto :obchod
