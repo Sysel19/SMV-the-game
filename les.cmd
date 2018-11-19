@@ -32,10 +32,7 @@ echo !                        / \                            / \                
 echo !                         I                             / \                                                 !
 echo !                                                        I                                                  !
 echo -------------------------------------------------------------------------------------------------------------
-choice /c wasd
-if %errorlevel%==w goto :les1
-if %errorlevel%==a goto :les1
-if %errorlevel%==s goto :les1
+choice /c d
 if %errorlevel%==d goto :les2
 
 :les2
@@ -67,8 +64,6 @@ echo !                        / \                            / \                
 echo !                         I                             / \                                                 !
 echo !                                                        I                                                  !
 echo -------------------------------------------------------------------------------------------------------------
-choice /c wasd
-if %errorlevel%==w goto :les2
+choice /c ad
 if %errorlevel%==a goto :les1
-if %errorlevel%==s goto :les2
 if %errorlevel%==d goto :les2
