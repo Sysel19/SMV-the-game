@@ -35,6 +35,7 @@ echo         OOOOOOOOO
 echo %money%
 
 choice /c 123 /m "Vyber si"
+
 if %errorlevel%==1 goto :OBCHODOVANI
 if %errorlevel%==2 goto :ROZHOVOR
 if %errorlevel%==3 goto :obchod
