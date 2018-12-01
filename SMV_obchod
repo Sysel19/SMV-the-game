@@ -47,7 +47,7 @@ if %errorlevel%==3 goto :obchod
  
 cls 
 echo.           
-echo           |_M_|
+echo           I_M_I
 echo          OOO OOO
 echo         OOO   OOO    
 echo       OOOO     OOOO  
