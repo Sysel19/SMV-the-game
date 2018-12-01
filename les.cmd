@@ -1,14 +1,16 @@
 @echo off
 title SMV the les
 cls
-set quest=<questy.txt
-goto :les1
+set /p quest=<questy.txt
+goto :questcontrolles
+
+:questcontrolles
+if %quest%==1 (msg Jdi za Abdulem do hospody U ABDULA)
 
 :les1
 
 color a
 cls
-if %quest%==1 (msg Jdi za Abdulem do hospody U ABDULA)
 echo -------------------------------------------------------------------------------------------------------------
 echo !         / \                                            / \                                                !
 echo !         / \                / \                         / \                                                !
