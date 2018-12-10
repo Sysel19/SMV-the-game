@@ -1,11 +1,7 @@
 @echo off
 title SMV the les
 cls
-set /p quest=<questy.txt
-goto :questcontrolles
-
-:questcontrolles
-if %quest%==1 (msg Jdi za Abdulem do hospody U ABDULA)
+goto :les1
 
 :les1
 
@@ -319,7 +315,7 @@ echo ---------------------------------------------------------------------------
 choice /c 1234
 if %errorlevel%==1 goto :les9
 if %errorlevel%==2 goto :les8
-if %errorlevel%==3 goto :les9
+if %errorlevel%==3 goto :les10
 if %errorlevel%==4 goto :les9
 
 :les10
