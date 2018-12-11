@@ -32,6 +32,7 @@ echo !                        / \                            / \                
 echo !                         I                             / \                                                 !
 echo !                                                        I                                                  !
 echo -------------------------------------------------------------------------------------------------------------
+echo [W,A,S,D]
 choice /c 1234
 if %errorlevel%==1 goto :les1
 if %errorlevel%==2 goto :les1
@@ -67,6 +68,7 @@ echo !                        / \                            / \                
 echo !                         I                             / \                                                 !
 echo !                                                        I                                                  !
 echo -------------------------------------------------------------------------------------------------------------
+echo [W,A,S,D]
 choice /c 1234
 if %errorlevel%==1 goto :les2
 if %errorlevel%==2 goto :les1
@@ -102,6 +104,7 @@ echo !                        / \                            / \                
 echo !                         I                             / \                                                 !
 echo !                                                        I                                                  !
 echo -------------------------------------------------------------------------------------------------------------
+echo [W,A,S,D]
 choice /c 1234
 if %errorlevel%==1 goto :les3
 if %errorlevel%==2 goto :les2
@@ -137,6 +140,7 @@ echo !                        / \                            / \                
 echo !                         I                             / \                                                 !
 echo !                                                        I                                                  !
 echo -------------------------------------------------------------------------------------------------------------
+echo [W,A,S,D]
 choice /c 1234
 if %errorlevel%==1 goto :les4
 if %errorlevel%==2 goto :les3
@@ -172,6 +176,7 @@ echo !                        / \                            / \                
 echo !                         I                             / \                                                 !
 echo !                                                        I                                                  !
 echo -------------------------------------------------------------------------------------------------------------
+echo [W,A,S,D]
 choice /c 1234
 if %errorlevel%==1 goto :les5
 if %errorlevel%==2 goto :les4
@@ -207,6 +212,7 @@ echo !                        / \                            / \                
 echo !                         I                             / \                                                 !
 echo !                                                        I                                                  !
 echo -------------------------------------------------------------------------------------------------------------
+echo [W,A,S,D]
 choice /c 1234
 if %errorlevel%==1 goto :les6
 if %errorlevel%==2 goto :les5
@@ -242,6 +248,7 @@ echo !                        / \                            / \                
 echo !                         I                             / \                                                 !
 echo !                                                        I                                                  !
 echo -------------------------------------------------------------------------------------------------------------
+echo [W,A,S,D]
 choice /c 1234
 if %errorlevel%==1 goto :les7
 if %errorlevel%==2 goto :les6
@@ -277,6 +284,7 @@ echo !                        / \                            / \                
 echo !                         I                             / \                                                 !
 echo !                                                        I                                                  !
 echo -------------------------------------------------------------------------------------------------------------
+echo [W,A,S,D]
 choice /c 1234
 if %errorlevel%==1 goto :les8
 if %errorlevel%==2 goto :les7
@@ -312,6 +320,7 @@ echo !                        / \                            / \                
 echo !                         I                             / \                                                 !
 echo !                                                        I                                                  !
 echo -------------------------------------------------------------------------------------------------------------
+echo [W,A,S,D]
 choice /c 1234
 if %errorlevel%==1 goto :les9
 if %errorlevel%==2 goto :les8
@@ -347,11 +356,12 @@ echo !                        / \                            / \                
 echo !                         I                             / \                                                 !
 echo !                                                        I                                                  !
 echo -------------------------------------------------------------------------------------------------------------
+echo [W,A,S,D]
 choice /c 1234
-if %errorlevel%==1 goto :les10
-if %errorlevel%==2 goto :les9
-if %errorlevel%==3 goto :les11
-if %errorlevel%==4 goto :les10
+if %errorlevel%==1 goto :les9
+if %errorlevel%==2 goto :les10
+if %errorlevel%==3 goto :les10
+if %errorlevel%==4 goto :les11
 
 :les11
 
@@ -382,6 +392,7 @@ echo !                        / \                            / \                
 echo !                         I                             / \                                                 !
 echo !                                                        I                                                  !
 echo -------------------------------------------------------------------------------------------------------------
+echo [W,A,S,D]
 choice /c 1234
 if %errorlevel%==1 goto :les11
 if %errorlevel%==2 goto :les10
@@ -417,8 +428,117 @@ echo !                        / \                            / \                
 echo !                         I                             / \                                                 !
 echo !                                                        I                                                  !
 echo -------------------------------------------------------------------------------------------------------------
+echo [W,A,S,D]
 choice /c 1234
 if %errorlevel%==1 goto :les12
 if %errorlevel%==2 goto :les11
 if %errorlevel%==3 goto :les12
 if %errorlevel%==4 goto :les13
+
+:les13
+
+color a
+cls
+echo -------------------------------------------------------------------------------------------------------------
+echo !         / \                                            / \                                                !
+echo !         / \                / \                         / \                                                !
+echo !         / \                / \                         / \                       / \                      !
+echo !          I                 / \                          I                        / \                      !
+echo !                             I                                                    / \                      !
+echo !                                                /--------------------\             I                       !
+echo !                                               /  3.15 * 5 / 8 = TM   \                                    !
+echo !=================================\            /I----------------------I\                                   !
+echo !                                 I             I       U ABDULA       I                                    !
+echo !============================I    I             I      SAVE HOUSE      I                                    !
+echo !                            I    I             I                      I                                    !
+echo !                            I    I=======================IQQQI==============================/              !
+echo !                            I                 x                                            ! e=mc3         !
+echo !                            \===========================================I    I==============\              !
+echo !                                                                        I    I                             !
+echo !          / \                                                           I    I                             !
+echo !          / \                           I===============================I    I                             !
+echo !          / \                           I?                                   I         / \                 !
+echo !           I            / \             I===============================I====/         / \                 !
+echo !                        / \                                                            / \                 !
+echo !                        / \                            / \                              I                  !
+echo !                         I                             / \                                                 !
+echo !                                                        I                                                  !
+echo -------------------------------------------------------------------------------------------------------------
+echo [W,A,S,D]
+choice /c 1234
+if %errorlevel%==1 goto :les13
+if %errorlevel%==2 goto :les11
+if %errorlevel%==3 goto :les13
+if %errorlevel%==4 goto :les14
+
+:les14
+
+color a
+cls
+echo -------------------------------------------------------------------------------------------------------------
+echo !         / \                                            / \                                                !
+echo !         / \                / \                         / \                                                !
+echo !         / \                / \                         / \                       / \                      !
+echo !          I                 / \                          I                        / \                      !
+echo !                             I                                                    / \                      !
+echo !                                                /--------------------\             I                       !
+echo !                                               /  3.15 * 5 / 8 = TM   \                                    !
+echo !=================================\            /I----------------------I\                                   !
+echo !                                 I             I       U ABDULA       I                                    !
+echo !============================I    I             I      SAVE HOUSE      I                                    !
+echo !                            I    I             I                      I                                    !
+echo !                            I    I=======================IQQQI==============================/              !
+echo !                            I                       x                                      ! e=mc3         !
+echo !                            \===========================================I    I==============\              !
+echo !                                                                        I    I                             !
+echo !          / \                                                           I    I                             !
+echo !          / \                           I===============================I    I                             !
+echo !          / \                           I?                                   I         / \                 !
+echo !           I            / \             I===============================I====/         / \                 !
+echo !                        / \                                                            / \                 !
+echo !                        / \                            / \                              I                  !
+echo !                         I                             / \                                                 !
+echo !                                                        I                                                  !
+echo -------------------------------------------------------------------------------------------------------------
+echo [W,A,S,D]
+choice /c 1234
+if %errorlevel%==1 goto :les14
+if %errorlevel%==2 goto :les12
+if %errorlevel%==3 goto :les14
+if %errorlevel%==4 goto :les15
+
+:les15
+
+color a
+cls
+echo -------------------------------------------------------------------------------------------------------------
+echo !         / \                                            / \                                                !
+echo !         / \                / \                         / \                                                !
+echo !         / \                / \                         / \                       / \                      !
+echo !          I                 / \                          I                        / \                      !
+echo !                             I                                                    / \                      !
+echo !                                                /--------------------\             I                       !
+echo !                                               /  3.15 * 5 / 8 = TM   \                                    !
+echo !=================================\            /I----------------------I\                                   !
+echo !                                 I             I       U ABDULA       I                                    !
+echo !============================I    I             I      SAVE HOUSE      I                                    !
+echo !                            I    I             I                      I                                    !
+echo !                            I    I=======================IQQQI==============================/              !
+echo !                            I                              x                               ! e=mc3         !
+echo !                            \===========================================I    I==============\              !
+echo !                                                                        I    I                             !
+echo !          / \                                                           I    I                             !
+echo !          / \                           I===============================I    I                             !
+echo !          / \                           I?                                   I         / \                 !
+echo !           I            / \             I===============================I====/         / \                 !
+echo !                        / \                                                            / \                 !
+echo !                        / \                            / \                              I                  !
+echo !                         I                             / \                                                 !
+echo !                                                        I                                                  !
+echo -------------------------------------------------------------------------------------------------------------
+echo [W,A,S,D]
+choice /c 1234
+if %errorlevel%==1 goto :les15
+if %errorlevel%==2 goto :les14
+if %errorlevel%==3 goto :les15
+if %errorlevel%==4 goto :les15
