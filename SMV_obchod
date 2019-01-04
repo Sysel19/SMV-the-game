@@ -43,6 +43,23 @@ if %errorlevel%==1 goto :OBCHODOVANI
 if %errorlevel%==2 goto :ROZHOVOR
 if %errorlevel%==3 goto :obchod
 
+:obchodovani
+
+cls
+echo.
+echo                          Kovar Martin
+echo         OOOOOOOOO          l
+echo        OOO     OOO      HH l HH
+echo       OO  O   O  OO      =====
+echo      OO     I     OO      II 
+echo      OO   -----   OO      I
+echo       OO    U    OO      3. ZPET
+echo        OOO     OOO
+echo         OOOOOOOOO
+echo PENIZE: %money%
+echo Max HP: %maxhp%
+
+
 :mag
  
 cls 
