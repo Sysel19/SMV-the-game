@@ -1,1 +1,1 @@
-Die
+CMD Stories
